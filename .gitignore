@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+dist/
+build/
+tasks.json
+test_tasks.json
+.vscode/
+.idea/
