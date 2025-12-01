@@ -105,6 +105,42 @@ ToDoApp/
 
 Both files are created automatically in the application directory.
 
+## Building Executable
+
+To create a standalone Windows executable (.exe) that doesn't require Python:
+
+1. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Run the build script:
+```bash
+.\build.bat
+```
+
+3. Find your executable:
+```
+dist\ToDoApp.exe
+```
+
+The executable is approximately 49 MB and includes all dependencies. Users can run it without installing Python.
+
+### For End Users (No Python Required)
+
+If you received the `ToDoApp.exe` file:
+
+1. **Download** the `ToDoApp.exe` file
+2. **Double-click** to run the application
+3. **No installation needed** - the app runs immediately
+4. Data files (`tasks.json`, `history.json`) will be created in the same folder as the .exe
+
+**System Requirements:**
+- Windows 10 or later
+- No Python installation required
+- Approximately 50 MB disk space
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
